@@ -1,7 +1,7 @@
 let marks = 70
 if(marks<35){
-    console.log("fail");
+    document.write("fail");
 }
 else{
-    console.log("pass")
+    document.write("pass")
 }
