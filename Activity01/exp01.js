@@ -12,15 +12,16 @@ var b=20
     console.log(a,b)
 }
 console.log(a,b)
+//let for block of scope
 //var is referd for the block or change in the block and if changed it will change for the 
 //entire code so donot use the var use let variable
 
 //variable declarcation 
-let accountid = 10; //number
-let declaration;   //only declarcation
-let boolean = true;  //Boolean datatype
-let null1 = null  //declaration of null value
-let email = "abc@gmail.com"; //string declaration 
+let accountid = 10; //number.
+let declaration;   //only declarcation.
+let boolean = true;  //Boolean datatype.
+let null1 = null  //declaration of null value.
+let email = "abc@gmail.com"; //string declaration.
 console.log(accountid,declaration,boolean,null1,email)
 console.log(typeof(accountid),typeof(declaration),typeof(boolean),typeof(null1),typeof(email))
 // the type null is object
