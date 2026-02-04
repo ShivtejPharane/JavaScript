@@ -9,6 +9,6 @@ function findMissingNumber(arr, n) {
 
     return expectedSum - actualSum;
 }
-let arr = [1, 2, 4, 5, 6];
+let ar = [1, 2, 4, 5, 6];
 let n = 6;
-console.log("Missing number:", findMissingNumber(arr, n));
+console.log("Missing number:", findMissingNumber(ar, n));

@@ -7,5 +7,5 @@ function factorial(num) {
     }
     return fact;
 }
-let number = 5;
-console.log("Factorial:", factorial(number));
+let nber = 5;
+console.log("Factorial:", factorial(nber));

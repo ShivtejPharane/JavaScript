@@ -1,0 +1,9 @@
+
+code for arrow fxn with exmp
+switch in js
+how to use truthy & falsy
+how to use ternary in js
+loops in array
+for off & forin
+use of map & filter fxn in js
+reduce fxn in js

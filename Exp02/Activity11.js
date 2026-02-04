@@ -12,5 +12,5 @@ function isPalindrome(str) {
     }
     return "Palindrome String";
 }
-let text = "madam";
-console.log(isPalindrome(text));
+let txt = "madam";
+console.log(isPalindrome(txt));

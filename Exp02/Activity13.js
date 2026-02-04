@@ -11,5 +11,5 @@ function isPrime(num) {
     }
     return "Prime Number";
 }
-let number = 17;
-console.log(isPrime(number));
+let umber = 17;
+console.log(isPrime(umber));

@@ -9,6 +9,6 @@ function removeDuplicates(arr) {
     }
     return uniqueArray;
 }
-let numbers = [1, 2, 3, 2, 4, 1, 5];
-console.log("Array without duplicates:", removeDuplicates(numbers));
+let numbes = [1, 2, 3, 2, 4, 1, 5];
+console.log("Array without duplicates:", removeDuplicates(numbes));
 

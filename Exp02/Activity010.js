@@ -10,6 +10,6 @@ function countVowels(str) {
     }
     return count;
 }
-let text = "JavaScript Programming";
-console.log("Number of vowels:", countVowels(text));
+let tex = "JavaScript Programming";
+console.log("Number of vowels:", countVowels(tex));
 
