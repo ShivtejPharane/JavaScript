@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Advanced Kanban Board</title>
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <!-- Font Awesome -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="app-container">
+        <header>
+            <h1><i class="fas fa-tasks"></i> Kanban Board</h1>
+            <p class="subtitle">Organize your workflow efficiently</p>
+        </header>
+
+        <div class="input-container">
+            <div class="input-wrapper">
+                <i class="fas fa-plus"></i>
+                <input type="text" id="taskInput" placeholder="Enter a new task..." autocomplete="off">
+            </div>
+            <button id="addTaskBtn">Add Task</button>
+        </div>
+
+        <div class="board">
+            <div class="column todo" data-column="todo">
+                <div class="column-header">
+                    <h2><i class="far fa-circle"></i> To Do <span class="count">0</span></h2>
+                </div>
+                <div class="task-list"></div>
+            </div>
+
+            <div class="column inprogress" data-column="inprogress">
+                <div class="column-header">
+                    <h2><i class="fas fa-spinner"></i> In Progress <span class="count">0</span></h2>
+                </div>
+                <div class="task-list"></div>
+            </div>
+
+            <div class="column done" data-column="done">
+                <div class="column-header">
+                    <h2><i class="far fa-check-circle"></i> Done <span class="count">0</span></h2>
+                </div>
+                <div class="task-list"></div>
+            </div>
+        </div>
+    </div>
+
+<script src="script.js"></script>
+</body>
+</html>
